@@ -49,4 +49,6 @@ void array_ptr_usage(void)
 
 	// Free your heap memory
 	free(arr);
+
+	printf("\n");
 }
