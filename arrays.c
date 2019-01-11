@@ -38,7 +38,7 @@ void array_ptr_usage(void)
 	printf("\n");
 
 	// Do the same thing assigning a pointer iterator
-	// arr_iter will start at the head of the array, can move forward printing values
+	// arr_iter will start at the head of the array, then move forward printing values
 	arr_iter = arr;
 	printf("array: ");
 	for (i=0; i<6; i++) {
@@ -46,9 +46,7 @@ void array_ptr_usage(void)
 		arr_iter++;					// Increment the pointer
 	}
 	printf("\n");
-
-	// Free your heap memory
-	free(arr);
+	free(arr); // Free your heap memory
 
 	printf("\n");
 }

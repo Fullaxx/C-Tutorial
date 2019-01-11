@@ -15,12 +15,13 @@ void struct_usage(void)
 	struct blocks myblock;
 
 	// Assign our values
-	myblock.c = 8;
+	myblock.c = 'C';
 	myblock.s = 16;
 	myblock.i = 32;
 	myblock.l = 64;
 
-	printf("myblock.a  = %d; myblock.b  = %d;\n", myblock.a, myblock.b);
+	printf("myblock.c  = %c; myblock.s  = %d; myblock.i  = %d; myblock.l  = %ld;", myblock.c, myblock.s, myblock.i, myblock.l);
+	printf("\n");
 }
 
 void struct_ptr_usage(void)
@@ -32,13 +33,14 @@ void struct_ptr_usage(void)
 	myblock = (struct blocks *)calloc(1, sizeof(struct blocks));
 
 	// Assign our values
-	myblock->c = 8;
+	myblock->c = 'C';
 	myblock->s = 16;
 	myblock->i = 32;
 	myblock->l = 64;
 
-	printf("myblock->a = %d; myblock->b = %d;\n", myblock->a, myblock->b);
-	free(myblock);
+	printf("myblock->c = %c; myblock->s = %d; myblock->i = %d; myblock->l = %ld;", myblock->c, myblock->s, myblock->i, myblock->l);
+	printf("\n");
+	free(myblock); // Free your heap memory
 
 	printf("\n");
 }
