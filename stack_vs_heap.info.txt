@@ -1,0 +1,2 @@
+https://www.gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
+https://www.programmerinterview.com/index.php/data-structures/difference-between-stack-and-heap/
