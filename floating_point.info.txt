@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/12815179/number-of-significant-digits-for-a-floating-point-type
+
+https://stackoverflow.com/questions/16839658/printf-width-specifier-to-maintain-precision-of-floating-point-value
+https://stackoverflow.com/questions/19610161/full-precision-display-of-floating-point-numbers-in-c?rq=1
+https://stackoverflow.com/questions/588004/is-floating-point-math-broken?rq=1
+
+https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+https://floating-point-gui.de/
+https://floating-point-gui.de/basic/

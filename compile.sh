@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc -Wall -ggdb3 main.c types.c pointers.c arrays.c structs.c -o tutorial.dbg
+gcc -Wall -ggdb3 main.c types.c fpoint.c pointers.c arrays.c structs.c -lm -o tutorial.dbg
