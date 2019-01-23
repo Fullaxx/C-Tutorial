@@ -1,3 +1,5 @@
+https://en.wikipedia.org/wiki/Floating-point_arithmetic
+
 https://stackoverflow.com/questions/12815179/number-of-significant-digits-for-a-floating-point-type
 
 https://stackoverflow.com/questions/16839658/printf-width-specifier-to-maintain-precision-of-floating-point-value

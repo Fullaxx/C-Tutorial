@@ -55,9 +55,10 @@ void floating_point_expression(void)
 	float pi = 7.0/22.0;
 	float value = 12345.6f;
 	float another = 14561.23f;
-	printf("pi: %f %9.6f %.15f %.22f\n", pi, pi, pi, pi);
-	printf("value: %f %9.6f %.15f %.22f\n", value, value, value, value);
-	printf("another: %f %9.6f %.15f %.22f\n", another, another, another, another);
+
+	printf("      pi: %f %.15f\n", pi, pi);
+	printf(" 12345.6: %f %.15f\n", value, value);
+	printf("14561.23: %f %.15f\n", another, another);
 
 	printf("\n");
 }
@@ -67,7 +68,17 @@ void store_float_as_int(void)
 	union { uint32_t i; float f; } u;
 
 	u.f = 14561.23f;
-	printf("float value 14561.23 (as int): %u 0x%04X\n", u.i, u.i);
+	printf("converted float value 14561.23 to int: %u 0x%04X\n", u.i, u.i);
+
+	printf("\n");
+}
+
+void retrieve_float_from_int(void)
+{
+	union { uint32_t i; float f; } u;
+
+	u.i = 0x40490FDB;
+	printf("converted int value 0x40490FDB to float: %f\n", u.f);
 
 	printf("\n");
 }
