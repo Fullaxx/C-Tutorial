@@ -16,6 +16,8 @@ void array_ptr_usage(void);
 void struct_usage(void);
 void struct_ptr_usage(void);
 
+void division(void);
+
 int main(int argc, char *argv[])
 {
 	type_size_ranges();
@@ -33,6 +35,8 @@ int main(int argc, char *argv[])
 
 	struct_usage();
 	struct_ptr_usage();
+
+	division();
 
 	return 0;
 }
