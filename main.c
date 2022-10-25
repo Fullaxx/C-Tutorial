@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 
 void type_size_ranges(void);
 
@@ -15,6 +15,7 @@ void array_ptr_usage(void);
 
 void struct_usage(void);
 void struct_ptr_usage(void);
+void returning_a_struct(void);
 
 void division(void);
 
@@ -35,6 +36,7 @@ int main(int argc, char *argv[])
 
 	struct_usage();
 	struct_ptr_usage();
+	returning_a_struct();
 
 	division();
 
