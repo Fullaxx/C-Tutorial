@@ -50,6 +50,20 @@ void float_double_test(void)
 	printf("\n");
 }
 
+// See Also: https://www.h-schmidt.net/FloatConverter/IEEE754.html
+void floating_point_conversion_error(void)
+{
+	printf("(float)   0.1 = %.15f\n", 0.1f);
+	printf("(float)  1.02 = %.15f\n", 1.02f);
+	printf("(float)   0.5 = %.15f\n", 0.5f);
+
+	printf("(double)  0.1 = %.30f\n", 0.1d);
+	printf("(double) 1.02 = %.30f\n", 1.02d);
+	printf("(double)  0.5 = %.30f\n", 0.5d);
+
+	printf("\n");
+}
+
 void floating_point_expression(void)
 {
 	float pi = 7.0/22.0;

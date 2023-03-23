@@ -2,6 +2,7 @@
 
 void type_size_ranges(void);
 
+void floating_point_conversion_error(void);
 void floating_point_ranges(void);
 void store_float_as_int(void);
 void retrieve_float_from_int(void);
@@ -24,6 +25,7 @@ int main(int argc, char *argv[])
 	type_size_ranges();
 
 	floating_point_ranges();
+	floating_point_conversion_error();
 	floating_point_expression();
 	float_double_test();
 	store_float_as_int();
