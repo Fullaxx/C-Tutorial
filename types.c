@@ -16,7 +16,7 @@ void type_size_ranges(void)
 
 	printf("\n");
 
-	// Print the max value each type can hold
+	// Print the max value each signed type can hold
 	printf("     char range: %d <= x <= %d\n",     CHAR_MIN,  CHAR_MAX);
 	printf("    short range: %d <= x <= %d\n",     SHRT_MIN,  SHRT_MAX);
 	printf("      int range: %d <= x <= %d\n",     INT_MIN,   INT_MAX);
@@ -25,7 +25,7 @@ void type_size_ranges(void)
 
 	printf("\n");
 
-	// Print the max value each type can hold
+	// Print the max value each unsigned type can hold
 	printf("     unsigned char range: 0 <= x <= %u\n",  UCHAR_MAX);
 	printf("    unsigned short range: 0 <= x <= %u\n",  USHRT_MAX);
 	printf("      unsigned int range: 0 <= x <= %u\n",  UINT_MAX);
